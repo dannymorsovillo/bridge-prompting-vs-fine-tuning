@@ -1,2 +1,4 @@
 .venv
 .vscode/
+*.backup-*.ipynb
+*DS_Store
