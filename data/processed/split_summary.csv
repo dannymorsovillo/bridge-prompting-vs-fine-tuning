@@ -1,0 +1,55 @@
+split,field,value,count
+test,bias_label,antibias,504
+test,bias_label,harmful,768
+test,bias_label,harmless,585
+train,bias_label,antibias,4030
+train,bias_label,harmful,6140
+train,bias_label,harmless,4676
+validation,bias_label,antibias,504
+validation,bias_label,harmful,768
+validation,bias_label,harmless,585
+test,source,Comparative Agendas Project (CAP),93
+test,source,GovReport Summarization,118
+test,source,LSC Eviction Laws Database,24
+test,source,Mapping Inequality: Redlining Data,140
+test,source,On the Books: Jim Crow Laws,222
+test,source,Pile of Law,752
+test,source,Social Bias Frames,508
+train,source,Comparative Agendas Project (CAP),885
+train,source,GovReport Summarization,898
+train,source,LSC Eviction Laws Database,181
+train,source,Mapping Inequality: Redlining Data,1181
+train,source,On the Books: Jim Crow Laws,1840
+train,source,Pile of Law,5850
+train,source,Social Bias Frames,4011
+validation,source,Comparative Agendas Project (CAP),127
+validation,source,GovReport Summarization,118
+validation,source,LSC Eviction Laws Database,32
+validation,source,Mapping Inequality: Redlining Data,168
+validation,source,On the Books: Jim Crow Laws,210
+validation,source,Pile of Law,711
+validation,source,Social Bias Frames,491
+test,register,formal,1349
+test,register,informal,508
+train,register,formal,10835
+train,register,informal,4011
+validation,register,formal,1366
+validation,register,informal,491
+test,era,1930s-1970s,140
+test,era,contemporary,508
+test,era,modern,987
+test,era,pre-1965,222
+train,era,1930s-1970s,1181
+train,era,contemporary,4011
+train,era,modern,7814
+train,era,pre-1965,1840
+validation,era,1930s-1970s,168
+validation,era,contemporary,491
+validation,era,modern,988
+validation,era,pre-1965,210
+test,is_augmented,no,1716
+test,is_augmented,yes,141
+train,is_augmented,no,13769
+train,is_augmented,yes,1077
+validation,is_augmented,no,1732
+validation,is_augmented,yes,125

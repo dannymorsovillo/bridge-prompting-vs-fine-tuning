@@ -1,0 +1,74 @@
+{
+  "dataset": "bridge-benchmark-2026/BRIDGE",
+  "revision": "645e94fc01424e36b1c7e8f7fe36a9089df96f7f",
+  "raw_file": "data/raw/645e94fc01424e36b1c7e8f7fe36a9089df96f7f/BRIDGE_final_ICLR.csv",
+  "raw_sha256": "42447ee0b14d495bb508a3c727c7b7a64c0851b4ff4d00dd12ff17226a5192a4",
+  "seed": 42,
+  "target_ratios": {
+    "train": 0.8,
+    "validation": 0.1,
+    "test": 0.1
+  },
+  "labels": [
+    "harmful",
+    "harmless",
+    "antibias"
+  ],
+  "rows_raw": 19420,
+  "rows_clean": 18560,
+  "cleaning_counts": {
+    "kept": 18560,
+    "normalized_duplicate": 813,
+    "label_conflict": 47
+  },
+  "conflicting_normalized_groups": 21,
+  "normalization": "NFKC, casefold, collapse whitespace; original input text preserved",
+  "representative_policy": "First row in pinned CSV; all provenance retained in cleaning_audit.csv",
+  "grouping": "Connected components: token identity or word-trigram-set Jaccard >= 0.9",
+  "near_duplicate_threshold": 0.9,
+  "groups_with_multiple_rows": 299,
+  "largest_group": 6,
+  "split_rows": {
+    "train": 14846,
+    "validation": 1857,
+    "test": 1857
+  },
+  "label_counts": {
+    "train": {
+      "harmful": 6140,
+      "harmless": 4676,
+      "antibias": 4030
+    },
+    "validation": {
+      "harmful": 768,
+      "harmless": 585,
+      "antibias": 504
+    },
+    "test": {
+      "harmful": 768,
+      "harmless": 585,
+      "antibias": 504
+    }
+  },
+  "validation": "No normalized-text or detected-group overlap; all retained rows assigned once; all classes present",
+  "limitations": [
+    "Lexical grouping cannot guarantee paraphrase or common-document isolation; original document IDs unavailable.",
+    "This is an in-distribution split, not a held-out-source experiment.",
+    "Generated examples retained; report natural-only and augmented-only test metrics as separate views.",
+    "Representative source metadata may hide cross-source duplicates; consult the lineage audit."
+  ],
+  "versions": {
+    "numpy": "2.5.3",
+    "pandas": "3.0.5"
+  },
+  "script_sha256": "2839910db0dabb2ba9303b37b27547ec5168b045298ef4ed4fdb525e7e06e5d7",
+  "output_sha256": {
+    "cleaning_audit.csv": "15e356164cb826c1c057318220f47568a3c926fb973a6e96f7b164eabce66953",
+    "near_duplicate_pairs.csv": "fe5d7acb9c5cea10d199a0731d92f37451b0ffcbdd168d777d310dacaadba678",
+    "split_ids.csv": "4b4aaf3e4d43c6a314aedeaa3852d7b6b848010fcbf90a554a7d712d01409c21",
+    "split_summary.csv": "2e4b25ff89c31ca427fc71d00800d29f021b098f2b6f97ae21127442463d26e7",
+    "test.csv": "4f60387dd0af6104a6135161d170e3107a6e93ef5961639a89b8b3fef604fb5e",
+    "train.csv": "096e7451f61c07479faee5964f8166b68d278622ede9ad4857436608fee77da3",
+    "validation.csv": "a7be2ffdeb94f2fc94037e978eab6bb68fe2de02b1c8e64e8f20129463ced9a8"
+  }
+}
