@@ -1,6 +1,6 @@
 # Comparing Prompting and Fine-Tuning for Bias Classification
 
-An IT 299 independent research project investigating whether a smaller language model, fine-tuned using parameter-efficient methods, can achieve classification performance comparable to a larger model using prompting alone.
+Project investigating whether a smaller language model, fine-tuned using parameter-efficient methods, can achieve classification performance comparable to a larger model using prompting alone.
 
 ## Dataset
 
