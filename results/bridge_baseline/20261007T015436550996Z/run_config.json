@@ -1,7 +1,7 @@
 {
   "condition": "small_zero_shot",
   "split": "validation",
-  "n": 120,
+  "n": 1857,
   "model": {
     "model_id": "Qwen/Qwen2.5-3B-Instruct",
     "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1"
@@ -14,11 +14,34 @@
   "precision": "4-bit NF4 + double quantization, BF16 compute",
   "attention": "sdpa",
   "max_input_tokens": 4096,
-  "max_new_tokens": 16,
   "truncation": "none; assert prompt fits",
   "batch_size": 1,
-  "do_sample": false,
-  "parser": "strip whitespace, lowercase, exact label; otherwise invalid",
+  "prediction_method": "candidate_label_scoring",
+  "candidate_token_ids": {
+    "harmful": [
+      71,
+      2178,
+      1262,
+      151645
+    ],
+    "harmless": [
+      71,
+      2178,
+      1717,
+      151645
+    ],
+    "antibias": [
+      517,
+      579,
+      3473,
+      151645
+    ]
+  },
+  "answer_end_token_id": 151645,
+  "score_rule": "sum of conditional log probabilities, including answer end",
+  "normalization": "softmax over the three candidate scores",
+  "length_normalization": false,
+  "candidate_forward_passes_per_example": 3,
   "gpu": "NVIDIA GH200 120GB",
   "versions": {
     "torch": "2.11.0+cu130",
