@@ -1,5 +1,5 @@
 {
-  "condition": "small_zero_shot",
+  "condition": "small_few_shot",
   "split": "validation",
   "n": 1857,
   "model": {
@@ -53,5 +53,21 @@
     "scikit-learn": "1.9.0"
   },
   "python": "3.12.9",
-  "status": "running"
+  "status": "complete",
+  "shots": 3,
+  "order_number": 4,
+  "training_sha256": "096e7451f61c07479faee5964f8166b68d278622ede9ad4857436608fee77da3",
+  "demonstration_selection": "one per label; sort sentence_id then sample with seed",
+  "demonstration_seed": 42,
+  "demonstration_ids": [
+    "3027",
+    "17270",
+    "15522"
+  ],
+  "demonstration_labels": [
+    "harmless",
+    "antibias",
+    "harmful"
+  ],
+  "prompt_format": "system, three user/assistant demonstration pairs, validation user, assistant prefix"
 }

@@ -4,3 +4,14 @@
 *DS_Store
 /344_FA26_QLoRA_Yoda_Evaluation.ipynb
 /Project Overview IT299 Fall 2026 BRIDGE.docx
+
+# Jupyter autosaves
+.ipynb_checkpoints/
+
+# Superseded and incomplete baseline runs retained locally
+/results/bridge_baseline/20260928T222323685328Z/
+/results/bridge_baseline/20260928T222749173377Z/
+/results/bridge_baseline/20261007T005623223496Z/
+/results/bridge_baseline/20261007T010720514009Z/
+/results/bridge_baseline/20261007T015436550996Z/
+/results/bridge_baseline/20261007T175739126060Z/
