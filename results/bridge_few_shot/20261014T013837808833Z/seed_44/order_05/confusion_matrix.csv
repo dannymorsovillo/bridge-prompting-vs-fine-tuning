@@ -1,0 +1,4 @@
+bias_label,harmful,harmless,antibias
+harmful,569,177,22
+harmless,125,393,67
+antibias,122,237,145
