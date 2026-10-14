@@ -1,0 +1,9 @@
+{
+  "demonstration_seeds": [
+    44
+  ],
+  "orders_per_seed": 6,
+  "expected_runs": 6,
+  "zero_shot_run": "results/bridge_baseline/20261014T013101086360Z",
+  "selection_policy": "fixed random seeds; no selection based on validation scores"
+}

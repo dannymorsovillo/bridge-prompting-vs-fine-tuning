@@ -1,0 +1,16 @@
+{
+  "n": 1857,
+  "accuracy": 0.5955842757135165,
+  "macro_f1": 0.5670048207828301,
+  "median_latency_seconds": 0.235156724229455,
+  "p95_latency_seconds": 0.25097475815564385,
+  "serial_examples_per_second": 4.265809766529922,
+  "peak_allocated_gib": 3.392017364501953,
+  "peak_reserved_gib": 5.37890625,
+  "majority_label": "harmful",
+  "majority_baseline": {
+    "n": 1857,
+    "accuracy": 0.4135702746365105,
+    "macro_f1": 0.19504761904761905
+  }
+}

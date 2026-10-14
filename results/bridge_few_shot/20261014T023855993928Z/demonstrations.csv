@@ -1,0 +1,8 @@
+demonstration_seed,sentence_id,text,bias_label,source,register,era,domain,is_augmented,group_id,split
+45,15979,"Board of directors(a) Composition and Terms.-(1) The Amtrak Board of Directors (referred to in this section as the ""Board"") is composed of the following 10 directors, each of whom must be a citizen of the United States:(A) The Secretary of Transportation.",harmful,Pile of Law,formal,modern,citizenship,no,g_15979,train
+45,3247,"2.FindingsCongress finds the following:
+			(1)The number of older individuals in the
+			 United States who are abused, neglected, or exploited is increasing, and a
+			 large percentage of elder abuse cases are not reported to Federal and State law
+			 enforcement authorities.",harmless,Pile of Law,formal,modern,no bias,no,g_3247,train
+45,17005,"Distance from public transportation in the east portion, alongside several families of various backgrounds. In the west portion lie several older-type houses.",antibias,Mapping Inequality: Redlining Data,formal,1930s-1970s,racial/cultural,yes,g_17005,train
