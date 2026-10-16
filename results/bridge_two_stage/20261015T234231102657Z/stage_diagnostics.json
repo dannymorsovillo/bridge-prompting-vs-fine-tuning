@@ -1,0 +1,10 @@
+{
+  "stage1_accuracy": 0.6817447495961227,
+  "routed_examples": 1644,
+  "harmful_examples_routed_to_stage2": 573,
+  "antibias_examples": 504,
+  "antibias_blocked_at_stage1": 10,
+  "antibias_stage1_pass_rate": 0.9801587301587301,
+  "stage2_accuracy_on_routed_true_non_harmful": 0.6162464985994398,
+  "stage2_accuracy_denominator": 1071
+}
