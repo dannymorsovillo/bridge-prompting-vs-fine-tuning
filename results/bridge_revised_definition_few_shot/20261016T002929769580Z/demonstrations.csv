@@ -1,0 +1,4 @@
+demonstration_seed,sentence_id,text,bias_label,source,register,era,domain,is_augmented,group_id,split
+43,11610,Outside of city - Restricted,harmful,Mapping Inequality: Redlining Data,formal,1930s-1970s,racial/cultural,no,g_11610,train
+43,7842,"(5) the Office for Domestic Preparedness of the Office of Justice Programs, including the functions of the Attorney General relating thereto.",harmless,Pile of Law,formal,modern,no bias,no,g_7842,train
+43,17184,"All city conveniances available to all residents, ensuring equal access to adequate transportation. The area is well-planned and inclusive, with proximity to schools and churches for all community members. A modern business center serves the diverse needs of the neighborhood, alongside a park and recreation center for communal enjoyment.",antibias,Mapping Inequality: Redlining Data,formal,1930s-1970s,racial/cultural,yes,g_17184,train
