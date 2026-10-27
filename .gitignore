@@ -15,3 +15,8 @@
 /results/bridge_baseline/20261007T010720514009Z/
 /results/bridge_baseline/20261007T015436550996Z/
 /results/bridge_baseline/20261007T175739126060Z/
+
+# Training artifacts and batch logs stay local/remote, outside Git
+/checkpoints/
+/logs/
+__pycache__/
